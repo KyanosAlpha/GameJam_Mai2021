@@ -29,6 +29,7 @@ public class TurnConveyor_HoldClick : MonoBehaviour
     private void InitializeOnAwake()
     {
         _transform = transform;
+        _baseRotation = _transform.rotation;
     }
 
     private void RotateConveyor()
