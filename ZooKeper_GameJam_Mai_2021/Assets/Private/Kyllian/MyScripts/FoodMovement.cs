@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FoodMovement : MonoBehaviour
@@ -12,11 +10,6 @@ public class FoodMovement : MonoBehaviour
 		if(_transform == null) { _transform = GetComponent<Transform>(); }
 	}
 
-    private void Update()
-    {
-        
-    }
-
     private void FixedUpdate()
     {
         Move();
@@ -26,6 +19,11 @@ public class FoodMovement : MonoBehaviour
 
 
     #region Utils
+
+    public void SetSpeed(float speed)
+    {
+        _speed = speed;
+    }
 
     private void Move()
     {
