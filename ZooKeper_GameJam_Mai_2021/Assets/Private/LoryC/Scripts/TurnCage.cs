@@ -20,12 +20,7 @@ public class TurnCage : MonoBehaviour
 
     private void Update()
     {
-        _degreeOfRotate = new Vector3(0, _rotateValue, 0);
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _transform.Rotate(_degreeOfRotate);
-        }
+        RotateCage();
     }
 
     #endregion
@@ -35,6 +30,16 @@ public class TurnCage : MonoBehaviour
     private void InitializeOnAwake()
     {
         _transform = transform;
+    }
+
+    private void RotateCage()
+    {
+        _degreeOfRotate = new Vector3(0, _rotateValue, 0);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _transform.Rotate(_degreeOfRotate);
+        }
     }
 
     #endregion
