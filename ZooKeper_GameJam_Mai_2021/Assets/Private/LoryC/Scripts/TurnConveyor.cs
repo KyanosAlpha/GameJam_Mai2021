@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class TurnConveyor : MonoBehaviour
@@ -9,10 +10,53 @@ public class TurnConveyor : MonoBehaviour
 
     #region Unity API
 
+    private void Awake()
+    {
+        InitializeOnAwake();
+    }
+
+
+    private void Update()
+    {
+        RotateConveyor();
+    }
+
+    #endregion
+
+
+    #region Utils
+
+    private void InitializeOnAwake()
+    {
+        _transform = transform;
+    }
+
+    private void RotateConveyor()
+    {
+        _degreeOfRotate = new Vector3(0, _rotateValue, 0);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _transform.Rotate(_degreeOfRotate);
+        }
+        else if (Input.GetKeyUp(KeyCode.Space))
+        {
+            _transform.rotation = _baseRotation;
+        }
+    }
+
     #endregion
 
 
     #region Private And Protected
+
+    private Transform _transform;
+
+    private Vector3 _degreeOfRotate;
+    private Quaternion _baseRotation;
+
+    [SerializeField]
+    private float _rotateValue;
 
     #endregion
 }
