@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TurnCage : MonoBehaviour
+public class TurnConveyor_OneClick : MonoBehaviour
 {
     #region Public Members
 
@@ -20,7 +20,7 @@ public class TurnCage : MonoBehaviour
 
     private void Update()
     {
-        RotateCage();
+        RotateConveyor();
     }
 
     #endregion
@@ -32,7 +32,7 @@ public class TurnCage : MonoBehaviour
         _transform = transform;
     }
 
-    private void RotateCage()
+    private void RotateConveyor()
     {
         _degreeOfRotate = new Vector3(0, _rotateValue, 0);
 
@@ -52,7 +52,7 @@ public class TurnCage : MonoBehaviour
     private Vector3 _degreeOfRotate;
 
     [SerializeField]
-    private float _rotateValue;
+    private float _rotateValue = 180f;
 
     #endregion
 }

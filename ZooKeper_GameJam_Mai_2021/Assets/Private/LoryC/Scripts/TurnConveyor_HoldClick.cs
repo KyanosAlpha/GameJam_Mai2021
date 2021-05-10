@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class TurnConveyor : MonoBehaviour
+public class TurnConveyor_HoldClick : MonoBehaviour
 {
     #region Public Members
 
@@ -56,7 +56,7 @@ public class TurnConveyor : MonoBehaviour
     private Quaternion _baseRotation;
 
     [SerializeField]
-    private float _rotateValue;
+    private float _rotateValue = 180f;
 
     #endregion
 }
