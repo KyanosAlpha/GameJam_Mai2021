@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 719938779824682453, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -666518203824176431, guid: 43f7bf18935dfb540aab4d772291949e, type: 3}
     - target: {fileID: 829004724691025395, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.625
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3391290783091647009, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
       propertyPath: m_LocalScale.z
@@ -19,40 +23,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.471
       objectReference: {fileID: 0}
+    - target: {fileID: 3826291362077417674, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_Name
+      value: mesh_x4
+      objectReference: {fileID: 0}
     - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
       propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
-      propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4313019199472225619, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
@@ -67,9 +43,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4313019199472225644, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_Size.z
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4313019199472225646, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
       propertyPath: m_Name
       value: Conveyor_4x4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339252082802195956, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_Size.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490765115002813040, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490765115002813040, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490765115002813040, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490765115002813040, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f021c29484cb5f04b9df7c05c6c3d9f1, type: 3}
