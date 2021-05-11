@@ -5148,7 +5148,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4272408744525576023, guid: 865b07d95d1f7464e953253a29c7b36a, type: 3}
       propertyPath: _winMeatAmount
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4272408744525576023, guid: 865b07d95d1f7464e953253a29c7b36a, type: 3}
       propertyPath: _nextLevelIndex
@@ -5156,11 +5156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4272408744525576023, guid: 865b07d95d1f7464e953253a29c7b36a, type: 3}
       propertyPath: _winVegetableAmount
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6248677527154103992, guid: 865b07d95d1f7464e953253a29c7b36a, type: 3}
       propertyPath: _loseTime
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7761213010621125726, guid: 865b07d95d1f7464e953253a29c7b36a, type: 3}
       propertyPath: m_Name

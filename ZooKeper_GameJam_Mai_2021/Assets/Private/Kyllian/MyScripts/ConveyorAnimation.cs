@@ -23,7 +23,7 @@ public class ConveyorAnimation : MonoBehaviour
 
 	private void BeltAnimation()
 	{
-		float offset = Time.time * _conveyor.GetSpeed() * -0.48f;
+		float offset = Time.time * _conveyor.GetSpeed() * -0.32f;
 
 		_renderer.material.SetTextureOffset("_MainTex", new Vector2(0f, offset));
 	}
