@@ -29,7 +29,7 @@ public class TurnConveyor_HoldClick : MonoBehaviour
     {
         _degreeOfRotate = new Vector3(0, _rotateValue, 0);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             _transform.Rotate(_degreeOfRotate);
         }
