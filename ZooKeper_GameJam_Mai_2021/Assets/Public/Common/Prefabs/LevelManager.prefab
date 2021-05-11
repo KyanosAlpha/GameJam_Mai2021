@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7761213010621125727}
   - component: {fileID: 6248677527154103992}
+  - component: {fileID: 1340441939987968965}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -44,4 +45,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelTimer: {fileID: 11400000, guid: a0d10c321c2193a428f4178ae8b41c0e, type: 2}
-  _maxTimer: 10
+  _loseTime: 10
+--- !u!114 &1340441939987968965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7761213010621125726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d28c5de76c708164b9b806e5ab608a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nextLevelIndex: 1
+  _winMeatAmount: 10
+  _winVegetableAmount: 10
+  _timeRemaining: {fileID: 11400000, guid: a0d10c321c2193a428f4178ae8b41c0e, type: 2}
+  _meatScore: {fileID: 11400000, guid: 64b588d88e74da84fb8f0e594b5dbfbe, type: 2}
+  _vegetableScore: {fileID: 11400000, guid: a86e2c0f07252e248be9973d72b3057f, type: 2}
+  _maxMeat: {fileID: 11400000, guid: 588a9c10573e6dd4d9ea743d81aa5770, type: 2}
+  _maxVegetable: {fileID: 11400000, guid: 9e7f72c3b8728bf41895a82a82d31f03, type: 2}
