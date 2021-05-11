@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1345032530749130236}
   - component: {fileID: 1533600119680841063}
   - component: {fileID: 3300073016365798749}
+  - component: {fileID: 301920299648281977}
   m_Layer: 0
   m_Name: Conveyor_8x8
   m_TagString: Untagged
@@ -92,6 +93,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _endPoint: {fileID: 2517891034508883296}
   _speed: 2
+--- !u!114 &301920299648281977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345032530749130237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc50cd85c915ac24cbc226cc4dc67c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _renderer: {fileID: 533997755076725132}
 --- !u!1 &5455411358741712050
 GameObject:

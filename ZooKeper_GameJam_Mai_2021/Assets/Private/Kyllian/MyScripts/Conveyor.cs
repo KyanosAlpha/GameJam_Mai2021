@@ -4,17 +4,7 @@ using UnityEngine;
 public class Conveyor : MonoBehaviour
 {
     #region Unity API
-
-    private void Awake()
-    {
-        if(_renderer == null) { _renderer = GetComponent<MeshRenderer>(); }
-    }
-
-    private void Update()
-    {
-        BeltAnimation();
-    }
-
+    
     private void OnTriggerStay(Collider other)
     {
         if(other.CompareTag("Meat") || other.CompareTag("Vegetable"))
@@ -30,11 +20,9 @@ public class Conveyor : MonoBehaviour
 
     #region Utils
 
-    private void BeltAnimation()
+    public float GetSpeed()
     {
-        float offset = Time.time * _speed * -0.48f;
-
-        _renderer.material.SetTextureOffset("_MainTex", new Vector2(0f, offset));
+        return _speed;
     }
 
     #endregion
@@ -44,7 +32,6 @@ public class Conveyor : MonoBehaviour
 
     [SerializeField] private Transform _endPoint;
     [SerializeField] private float _speed = 2f;
-    [SerializeField] private MeshRenderer _renderer;
-
+    
     #endregion
 }

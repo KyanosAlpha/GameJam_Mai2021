@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 6782266200066440613}
   - component: {fileID: 6484481940311117118}
   - component: {fileID: 7023863027294891268}
+  - component: {fileID: 6560055060305623025}
   m_Layer: 0
   m_Name: Conveyor_2x2
   m_TagString: Untagged
@@ -122,6 +123,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _endPoint: {fileID: 4526181553990371806}
   _speed: 2
+--- !u!114 &6560055060305623025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6782266200066440612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc50cd85c915ac24cbc226cc4dc67c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _renderer: {fileID: 5466478209665659349}
 --- !u!1001 &6637533279562657105
 PrefabInstance:
