@@ -61,3 +61,4 @@ crashlytics-build.properties
 *.vsconfig
 [Uu]serSettings/
 
+/ZooKeper_GameJam_Mai_2021/ProjectSettings/Packages/com.unity.probuilder/Settings.json
