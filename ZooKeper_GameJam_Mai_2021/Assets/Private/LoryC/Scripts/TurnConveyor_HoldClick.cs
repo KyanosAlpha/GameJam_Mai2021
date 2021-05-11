@@ -1,20 +1,13 @@
-using System;
 using UnityEngine;
 
 public class TurnConveyor_HoldClick : MonoBehaviour
 {
-    #region Public Members
-
-    #endregion
-
-
     #region Unity API
 
     private void Awake()
     {
         InitializeOnAwake();
     }
-
 
     private void Update()
     {

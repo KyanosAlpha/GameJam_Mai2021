@@ -2,20 +2,11 @@ using UnityEngine;
 
 public class TurnConveyor_OneClick : MonoBehaviour
 {
-    #region Public Members
-
-    #endregion
-
-
     #region Unity API
+
     private void Awake()
     {
         InitializeOnAwake();
-    }
-
-    private void Start()
-    {
-        
     }
 
     private void Update()
