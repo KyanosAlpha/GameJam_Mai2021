@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class Conveyor : MonoBehaviour
 {
     #region Unity API
