@@ -33,7 +33,7 @@ public class TurnConveyor_HoldClick : MonoBehaviour
         {
             _transform.Rotate(_degreeOfRotate);
         }
-        else if (Input.GetKeyUp(KeyCode.Space))
+        else if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             _transform.rotation = _baseRotation;
         }
