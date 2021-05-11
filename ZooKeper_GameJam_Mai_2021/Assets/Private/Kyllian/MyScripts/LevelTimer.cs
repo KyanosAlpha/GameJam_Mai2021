@@ -26,8 +26,6 @@ public class LevelTimer : MonoBehaviour
 		_levelTimer.Value -= Time.deltaTime;
 
 		_levelTimer.Value = Mathf.Clamp(_levelTimer.Value, 0f, _maxTime);
-
-		Debug.Log(_levelTimer.Value);
 	}
 
 	#endregion
