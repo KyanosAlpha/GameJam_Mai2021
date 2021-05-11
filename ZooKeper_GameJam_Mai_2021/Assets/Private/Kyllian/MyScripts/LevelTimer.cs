@@ -6,7 +6,7 @@ public class LevelTimer : MonoBehaviour
 
     private void Awake()
     {
-		_levelTimer.Value = _maxTime;
+		_levelTimer.Value = _loseTime;
 	}
 
     private void Update()
@@ -25,7 +25,7 @@ public class LevelTimer : MonoBehaviour
 
 		_levelTimer.Value -= Time.deltaTime;
 
-		_levelTimer.Value = Mathf.Clamp(_levelTimer.Value, 0f, _maxTime);
+		_levelTimer.Value = Mathf.Clamp(_levelTimer.Value, 0f, _loseTime);
 	}
 
 	#endregion
@@ -34,7 +34,7 @@ public class LevelTimer : MonoBehaviour
 	#region Private And Protected Members
 
 	[SerializeField] private FloatVariable _levelTimer;
-	[SerializeField] private float _maxTime = 10f;
+	[SerializeField] private float _loseTime = 10f;
 	
 	#endregion
 }
