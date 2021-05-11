@@ -1,7 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class VictoryCondition : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
 	#region Unity API
 	
@@ -45,13 +46,13 @@ public class VictoryCondition : MonoBehaviour
 	IEnumerator RestartLevel()
 	{
 		yield return new WaitForSeconds(4f);
-		Debug.Log("Restart Level");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 	IEnumerator NextLevel()
     {
 		yield return new WaitForSeconds(4f);
-		Debug.Log("Next Level");
+		SceneManager.LoadScene(_nextLevelIndex);
 	}
 
 	#endregion
@@ -60,6 +61,7 @@ public class VictoryCondition : MonoBehaviour
 	#region Private And Protected Members
 
 	private bool _isLevelEnd = false;
+	[SerializeField] private int _nextLevelIndex;
 	[SerializeField] private int _winMeatAmount = 10;
 	[SerializeField] private int _winVegetableAmount = 10;
 	[SerializeField] private FloatVariable _timeRemaining;
