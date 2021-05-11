@@ -4,7 +4,7 @@ using UnityEngine;
 public class Conveyor : MonoBehaviour
 {
     #region Unity API
-
+    
     private void OnTriggerStay(Collider other)
     {
         if(other.CompareTag("Meat") || other.CompareTag("Vegetable"))
@@ -18,10 +18,20 @@ public class Conveyor : MonoBehaviour
     #endregion
 
 
+    #region Utils
+
+    public float GetSpeed()
+    {
+        return _speed;
+    }
+
+    #endregion
+
+
     #region Private And Protected Members
 
     [SerializeField] private Transform _endPoint;
     [SerializeField] private float _speed = 2f;
-
+    
     #endregion
 }
