@@ -45,5 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _foodsList:
   - {fileID: 219723290523496623, guid: cd5eca1d7db1b304cb7f2b3c669bb53f, type: 3}
+  - {fileID: 219723290523496623, guid: 564cb2545775a394fade45641126d32e, type: 3}
   - {fileID: 219723290523496623, guid: 176557c2364b1d24aa3a8b243aa88a7e, type: 3}
-  _nextSpawnTime: 2
+  - {fileID: 219723290523496623, guid: ed2994ebb5ba4ae41b2cd7f1fb97fd24, type: 3}
+  _nextSpawnTimeMin: 0.1
+  _nextSpawnTimeMax: 1
+  _maxOfSpawn: 5
