@@ -7,7 +7,7 @@ public class ItemDestructor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Meat") || other.gameObject.CompareTag("Vegetable"))
+        if(other.gameObject.CompareTag("Meat") || other.gameObject.CompareTag("Vegetable") || other.gameObject.CompareTag("Kibble") || other.gameObject.CompareTag("Trash"))
         {
             Destroy(other.gameObject);
         }

@@ -12,7 +12,7 @@ public class MeatCounter : MonoBehaviour
 	
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Meat"))
+        if(other.gameObject.CompareTag("Meat") || other.gameObject.CompareTag("Kibble") || other.gameObject.CompareTag("Trash"))
         {
             int point = other.gameObject.GetComponent<FoodValue>().GetPoint();
 

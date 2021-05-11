@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Meat
   - Vegetable
+  - Kibble
+  - Trash
   layers:
   - Default
   - TransparentFX
