@@ -7,7 +7,7 @@ public class Conveyor : MonoBehaviour
     
     private void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("Meat") || other.CompareTag("Vegetable"))
+        if(other.CompareTag("Meat") || other.CompareTag("Vegetable") || other.gameObject.CompareTag("Kibble") || other.gameObject.CompareTag("Trash"))
         {
             Transform otherTransform = other.GetComponent<Transform>();
 
