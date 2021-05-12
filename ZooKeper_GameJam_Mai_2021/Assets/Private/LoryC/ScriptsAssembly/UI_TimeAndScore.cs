@@ -12,16 +12,16 @@ public class UI_TimeAndScore : MonoBehaviour
 
     private void Update()
     {
-        _timerText.text = $"{_timerScript.Value :0.0}";
+        _timerText.text = $"{_timerScript.Value :0     0     0  .  0}";
 
         if(_timerScript.Value < 5f)
         {
             _timerText.color = Color.red;
         }
 
-        _meatText.text = $"{_meatCounter.Value:0} / {_meatMax.Value} Meats";
+        _meatText.text = $"{_meatCounter.Value:0} / {_meatMax.Value}";
 
-        _vegetableText.text = $"{_vegetableCounter.Value:0} / {_vegetableMax.Value} Vegetables";
+        _vegetableText.text = $"{_vegetableCounter.Value:0} / {_vegetableMax.Value}";
     }
 
     #endregion
