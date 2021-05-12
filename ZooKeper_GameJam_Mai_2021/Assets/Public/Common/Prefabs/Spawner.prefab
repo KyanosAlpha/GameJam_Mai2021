@@ -44,10 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _foodsList:
+  - {fileID: 219723290523496623, guid: 04dadbe7fef39fe4e9bbe013211581fd, type: 3}
   - {fileID: 219723290523496623, guid: cd5eca1d7db1b304cb7f2b3c669bb53f, type: 3}
-  - {fileID: 219723290523496623, guid: 564cb2545775a394fade45641126d32e, type: 3}
-  - {fileID: 219723290523496623, guid: 176557c2364b1d24aa3a8b243aa88a7e, type: 3}
-  - {fileID: 219723290523496623, guid: ed2994ebb5ba4ae41b2cd7f1fb97fd24, type: 3}
+  - {fileID: 8993075736659881107, guid: 564cb2545775a394fade45641126d32e, type: 3}
+  - {fileID: 219723290523496623, guid: 99c73f483788d0f4d9f5fe778ea349ca, type: 3}
+  - {fileID: 219723290523496623, guid: ade3115682c2966418bd247b638f21ea, type: 3}
+  - {fileID: 219723290523496623, guid: 98931db06db683847a1305da62f7da15, type: 3}
   _nextSpawnTimeMin: 0.1
   _nextSpawnTimeMax: 1
   _maxOfSpawn: 5
