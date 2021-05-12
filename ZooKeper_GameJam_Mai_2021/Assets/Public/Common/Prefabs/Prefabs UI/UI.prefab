@@ -947,6 +947,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1387633960640022854}
+        m_TargetAssemblyTypeName: IngameMenu, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &5811703152001215106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,7 +1741,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5811703152669086833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1387633960640022854}
+        m_TargetAssemblyTypeName: IngameMenu, Assembly-CSharp
+        m_MethodName: Quitgame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5811703152778237709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,7 +1873,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5811703152778237704}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1387633960640022854}
+        m_TargetAssemblyTypeName: IngameMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5811703153048612696
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,6 +1896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5811703153048612697}
   - component: {fileID: 5811703153048612694}
+  - component: {fileID: 1387633960640022854}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -1908,6 +1945,18 @@ MonoBehaviour:
   _vegetableCounter: {fileID: 11400000, guid: a86e2c0f07252e248be9973d72b3057f, type: 2}
   _vegetableText: {fileID: 5811703153357097485}
   _vegetableMax: {fileID: 11400000, guid: 9e7f72c3b8728bf41895a82a82d31f03, type: 2}
+--- !u!114 &1387633960640022854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5811703153048612696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1523e809b2a9848a4387edf22cd7e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5811703153190319871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,6 +2236,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1387633960640022854}
+        m_TargetAssemblyTypeName: IngameMenu, Assembly-CSharp
+        m_MethodName: ResumeGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2968,13 +3029,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 803cb9d265cde9e49bd26939e5f4faec, type: 3}
---- !u!224 &1787624543990249304 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4753701138264666202, guid: 803cb9d265cde9e49bd26939e5f4faec, type: 3}
-  m_PrefabInstance: {fileID: 6428434313715140354}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4667751205107845705 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1869358949568253259, guid: 803cb9d265cde9e49bd26939e5f4faec, type: 3}
+  m_PrefabInstance: {fileID: 6428434313715140354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1787624543990249304 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4753701138264666202, guid: 803cb9d265cde9e49bd26939e5f4faec, type: 3}
   m_PrefabInstance: {fileID: 6428434313715140354}
   m_PrefabAsset: {fileID: 0}
