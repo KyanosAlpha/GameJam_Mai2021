@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.43687034, g: 0.48451984, b: 0.5647778, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4993,7 +4993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5366,13 +5366,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547175524}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.7111863, y: -0.17513849, z: 0.19056179, w: 0.65362585}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 94.83, y: -30, z: 0}
 --- !u!43 &557588189
 Mesh:
   m_ObjectHideFlags: 0
@@ -8687,7 +8687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19639,7 +19639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20699,7 +20699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23682,7 +23682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3657833987202077151, guid: cc15090d43e78354d9f65dca12120c31, type: 3}
       propertyPath: m_LocalPosition.z
