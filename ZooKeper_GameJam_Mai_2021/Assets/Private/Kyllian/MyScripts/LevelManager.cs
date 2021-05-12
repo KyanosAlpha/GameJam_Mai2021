@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
 	
 	private void Awake()
 	{
+		Time.timeScale = 1;
 		_maxMeat.Value = _winMeatAmount;
 		_maxVegetable.Value = _winVegetableAmount;
 	}
@@ -28,7 +29,7 @@ public class LevelManager : MonoBehaviour
 		if (_timeRemaining.Value <= 0 && !_isLevelEnd)
 		{
 			_isLevelEnd = true;
-			Debug.Log("Lose");
+			_loseScreen.SetActive(true);
 			StartCoroutine("RestartLevel");
 		}
 	}
@@ -38,7 +39,7 @@ public class LevelManager : MonoBehaviour
 		if (_meatScore.Value >= _maxMeat.Value && _vegetableScore.Value >= _maxVegetable.Value && !_isLevelEnd)
 		{
 			_isLevelEnd = true;
-			Debug.Log("Win");
+			_winScreen.SetActive(true);
 			StartCoroutine("NextLevel");
 		}
     }
@@ -52,7 +53,7 @@ public class LevelManager : MonoBehaviour
 	IEnumerator NextLevel()
     {
 		yield return new WaitForSeconds(4f);
-		SceneManager.LoadScene(_nextLevelIndex);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
 	#endregion
@@ -61,7 +62,6 @@ public class LevelManager : MonoBehaviour
 	#region Private And Protected Members
 
 	private bool _isLevelEnd = false;
-	[SerializeField] private int _nextLevelIndex;
 	[SerializeField] private int _winMeatAmount = 10;
 	[SerializeField] private int _winVegetableAmount = 10;
 	[SerializeField] private FloatVariable _timeRemaining;
@@ -69,6 +69,8 @@ public class LevelManager : MonoBehaviour
 	[SerializeField] private IntVariable _vegetableScore;
 	[SerializeField] private IntVariable _maxMeat;
 	[SerializeField] private IntVariable _maxVegetable;
+	[SerializeField] private GameObject _loseScreen;
+	[SerializeField] private GameObject _winScreen;
 
 	#endregion
 }
