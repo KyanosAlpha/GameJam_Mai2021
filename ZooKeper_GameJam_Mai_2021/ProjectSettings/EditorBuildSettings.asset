@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Private/Kyllian/MyScenes/Level1.unity
     guid: aa1a6272750080142a59f4d69e4b95c4
   - enabled: 1
