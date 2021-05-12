@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
 	
 	private void Awake()
 	{
+		Time.timeScale = 1;
 		_maxMeat.Value = _winMeatAmount;
 		_maxVegetable.Value = _winVegetableAmount;
 	}
