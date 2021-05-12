@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Private/Jason/Level7.unity
     guid: 01b761c1dcd6575439e0c3cad66d5234
+  - enabled: 1
+    path: Assets/Private/Kyllian/MyScenes/EndMenu.unity
+    guid: 87e8bb94975740a4aadea8c09d8820f4
   m_configObjects: {}
