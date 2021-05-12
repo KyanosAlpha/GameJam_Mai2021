@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: f3e909c4e2d5ff545949742533440fdb, type: 2}
   m_LightingSettings: {fileID: 450274231}
 --- !u!196 &4
 NavMeshSettings:
@@ -9049,6 +9049,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67e53b4e8f87c754386608b27fc6777d, type: 3}
+--- !u!1 &705503512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9160746142669909360, guid: 67e53b4e8f87c754386608b27fc6777d, type: 3}
+  m_PrefabInstance: {fileID: 705503511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &705503513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6697599763944927029, guid: 67e53b4e8f87c754386608b27fc6777d, type: 3}
+  m_PrefabInstance: {fileID: 705503511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &713654259
 Mesh:
   m_ObjectHideFlags: 0
@@ -15596,6 +15606,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1340441939987968965, guid: b4dd879350401954bb9bbd5dc429cbe2, type: 3}
+      propertyPath: _winScreen
+      value: 
+      objectReference: {fileID: 705503512}
+    - target: {fileID: 1340441939987968965, guid: b4dd879350401954bb9bbd5dc429cbe2, type: 3}
+      propertyPath: _loseScreen
+      value: 
+      objectReference: {fileID: 705503513}
     - target: {fileID: 6248677527154103992, guid: b4dd879350401954bb9bbd5dc429cbe2, type: 3}
       propertyPath: _loseTime
       value: 75
