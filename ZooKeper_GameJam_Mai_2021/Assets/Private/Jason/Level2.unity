@@ -4013,19 +4013,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584324901576233795, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
       propertyPath: _nextSpawnTimeMax
-      value: 1.5
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 8584324901576233795, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
       propertyPath: _nextSpawnTimeMin
-      value: 0.7
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8584324901576233795, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
+      propertyPath: _foodsList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584324901576233795, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
+      propertyPath: _foodsList.Array.data[1]
+      value: 
+      objectReference: {fileID: 219723290523496623, guid: ade3115682c2966418bd247b638f21ea, type: 3}
+    - target: {fileID: 8584324901576233795, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
+      propertyPath: _foodsList.Array.data[2]
+      value: 
+      objectReference: {fileID: 219723290523496623, guid: ade3115682c2966418bd247b638f21ea, type: 3}
+    - target: {fileID: 8584324901576233795, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
+      propertyPath: _foodsList.Array.data[3]
+      value: 
+      objectReference: {fileID: 219723290523496623, guid: 98931db06db683847a1305da62f7da15, type: 3}
     - target: {fileID: 8584324901576233804, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8584324901576233804, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.93
+      value: -19.63
       objectReference: {fileID: 0}
     - target: {fileID: 8584324901576233804, guid: bd82bad0c10b6d74ba650faec310e81e, type: 3}
       propertyPath: m_LocalPosition.y
