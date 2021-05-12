@@ -9,9 +9,24 @@ EditorBuildSettings:
     path: Assets/Private/Kyllian/MyScenes/MainMenu.unity
     guid: 7d8d85eed1fdf5c4f8f386954c5d9a60
   - enabled: 1
-    path: Assets/Private/Kyllian/MyScenes/Level1.unity
-    guid: adb7f3d494834a94a927dfe55314f52a
+    path: Assets/Private/Jason/Level1.unity
+    guid: 7b157370bc384bc42917668d3ab16718
   - enabled: 1
-    path: Assets/Private/Kyllian/MyScenes/Level2.unity
-    guid: 2e4214401775dff40b6fa2a783e6e600
+    path: Assets/Private/Jason/Level2.unity
+    guid: 2de9d4cc53b9c0a47b2c3d8f13daf54b
+  - enabled: 1
+    path: Assets/Private/Jason/Level3.unity
+    guid: ef9cdcd17f57d6543b83b0bdf604b50d
+  - enabled: 1
+    path: Assets/Private/Jason/Level4.unity
+    guid: fc730f267cce8ee4aa42f6fa5f58333c
+  - enabled: 1
+    path: Assets/Private/Jason/Level5.unity
+    guid: f19668120f4bb6441a762c9bebe7da1c
+  - enabled: 1
+    path: Assets/Private/Jason/Level6.unity
+    guid: fe638489479332a49bbc7fa735dc84e4
+  - enabled: 1
+    path: Assets/Private/Jason/Level7.unity
+    guid: 01b761c1dcd6575439e0c3cad66d5234
   m_configObjects: {}
